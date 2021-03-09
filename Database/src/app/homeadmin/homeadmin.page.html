@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar background color="dark">
+    <center><ion-title size="small">
+      Welcome 
+    </ion-title></center>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" background color="warning">
+	
+  <center><img src="./assets/Sibuyong Management system.png" width="280" height="330" ></center>
+
+<br>
+<center>
+   <ion-button size="medium" color ="dark" routerLink="/register"> Register New Admin</ion-button>
+  <ion-button size="medium" color ="danger" routerLink="/home"> Logout</ion-button>
+  </center>
+
+<br>
+ <ion-bottom><ion-toolbar background color="dark">
+<center><p>Copyright &copy; SiBuyong Homestay</p></center></ion-toolbar>
+</ion-bottom>
+</ion-content>
